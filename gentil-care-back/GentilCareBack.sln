@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GentilCareBack", "GentilCareBack\GentilCareBack.csproj", "{00273D3F-9CE5-49AD-9109-F985DBCC04AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GentilCareBack.Models", "GentilCareBack.Models\GentilCareBack.Models.csproj", "{C0996E2D-9CC9-4218-9BE7-7F2B32CE5B40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GentilCareBack.Data", "GentilCareBack.Data\GentilCareBack.Data.csproj", "{1C63FF39-71F2-4AAE-B33E-062D8B3B3451}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GentilCareBack.Services", "GentilCareBack.Services\GentilCareBack.Services.csproj", "{1BCA2459-7525-4357-A014-46F18BC49118}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GentilCareBack.Dto", "GentilCareBack.Dto\GentilCareBack.Dto.csproj", "{13DA97A7-748E-4D85-A6E5-9D8E5382DFE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00273D3F-9CE5-49AD-9109-F985DBCC04AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00273D3F-9CE5-49AD-9109-F985DBCC04AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00273D3F-9CE5-49AD-9109-F985DBCC04AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00273D3F-9CE5-49AD-9109-F985DBCC04AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0996E2D-9CC9-4218-9BE7-7F2B32CE5B40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0996E2D-9CC9-4218-9BE7-7F2B32CE5B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0996E2D-9CC9-4218-9BE7-7F2B32CE5B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0996E2D-9CC9-4218-9BE7-7F2B32CE5B40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C63FF39-71F2-4AAE-B33E-062D8B3B3451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C63FF39-71F2-4AAE-B33E-062D8B3B3451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C63FF39-71F2-4AAE-B33E-062D8B3B3451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C63FF39-71F2-4AAE-B33E-062D8B3B3451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BCA2459-7525-4357-A014-46F18BC49118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BCA2459-7525-4357-A014-46F18BC49118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BCA2459-7525-4357-A014-46F18BC49118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BCA2459-7525-4357-A014-46F18BC49118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13DA97A7-748E-4D85-A6E5-9D8E5382DFE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13DA97A7-748E-4D85-A6E5-9D8E5382DFE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13DA97A7-748E-4D85-A6E5-9D8E5382DFE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13DA97A7-748E-4D85-A6E5-9D8E5382DFE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CF4D4B8-171A-4707-9615-CE18BCE8F04C}
+	EndGlobalSection
+EndGlobal
