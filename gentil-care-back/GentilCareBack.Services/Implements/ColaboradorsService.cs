@@ -48,6 +48,12 @@ namespace GentilCareBack.Services.Implements
             }
 
         }
+
+        public async Task<ColaboradorsDto> getUltimateRegister() {
+            var result = await repository.getUltimateRegister();
+            var resp = _mapper.Map<ColaboradorsDto>(result);
+            return resp;
+        }
         public async Task<bool> UpdateAsync(ColaboradorsDto obj)
         {
             try

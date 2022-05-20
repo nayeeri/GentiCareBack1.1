@@ -5675,11 +5675,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\INTECH\\Documents\\GitHub\\Nayeeri%20-%20Gentilcare\\gentil-care-back\\GentilCareBack.Data\\GentilCareBack.Data.csproj",
+      "projectUniqueName": "C:\\Users\\INTECH\\Documents\\GitHub\\GentiCareBack1.1\\gentil-care-back\\GentilCareBack.Data\\GentilCareBack.Data.csproj",
       "projectName": "GentilCareBack.Data",
-      "projectPath": "C:\\Users\\INTECH\\Documents\\GitHub\\Nayeeri%20-%20Gentilcare\\gentil-care-back\\GentilCareBack.Data\\GentilCareBack.Data.csproj",
+      "projectPath": "C:\\Users\\INTECH\\Documents\\GitHub\\GentiCareBack1.1\\gentil-care-back\\GentilCareBack.Data\\GentilCareBack.Data.csproj",
       "packagesPath": "C:\\Users\\INTECH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\INTECH\\Documents\\GitHub\\Nayeeri%20-%20Gentilcare\\gentil-care-back\\GentilCareBack.Data\\obj\\",
+      "outputPath": "C:\\Users\\INTECH\\Documents\\GitHub\\GentiCareBack1.1\\gentil-care-back\\GentilCareBack.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\INTECH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5696,8 +5696,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\INTECH\\Documents\\GitHub\\Nayeeri%20-%20Gentilcare\\gentil-care-back\\GentilCareBack.Models\\GentilCareBack.Models.csproj": {
-              "projectPath": "C:\\Users\\INTECH\\Documents\\GitHub\\Nayeeri%20-%20Gentilcare\\gentil-care-back\\GentilCareBack.Models\\GentilCareBack.Models.csproj"
+            "C:\\Users\\INTECH\\Documents\\GitHub\\GentiCareBack1.1\\gentil-care-back\\GentilCareBack.Models\\GentilCareBack.Models.csproj": {
+              "projectPath": "C:\\Users\\INTECH\\Documents\\GitHub\\GentiCareBack1.1\\gentil-care-back\\GentilCareBack.Models\\GentilCareBack.Models.csproj"
             }
           }
         }

@@ -32,5 +32,7 @@ namespace GentilCareBack.Models.Entity
 		[MaxLength(50)]
 		public string? parentezco { get; set; }
 		public Auths? Auths { get; set; }
+		public string pin { get; set; }
+		public bool status { get; set; }
 	}
 }

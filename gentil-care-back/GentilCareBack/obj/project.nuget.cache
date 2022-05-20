@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a+H8W/Xcyaln7i1N+bxocnh1tInD3fuhdwBIO7Rk+us8buPEQgtYMwxFbOE6NiMAYWALcaJ09kBVM2GpZnpd1g==",
+  "dgSpecHash": "AQFPE+CMnEesmfapkZVl6aC4CLoxgTg3+aXx/DZLXkliWs9XiQDem0Wn7mwF/7j3xQdFXcGnrKFpLC1chQEp1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\INTECH\\Documents\\GitHub\\Nayeeri%20-%20Gentilcare\\gentil-care-back\\GentilCareBack\\GentilCareBack.csproj",
+  "projectFilePath": "C:\\Users\\INTECH\\Documents\\GitHub\\GentiCareBack1.1\\gentil-care-back\\GentilCareBack\\GentilCareBack.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\INTECH\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\INTECH\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

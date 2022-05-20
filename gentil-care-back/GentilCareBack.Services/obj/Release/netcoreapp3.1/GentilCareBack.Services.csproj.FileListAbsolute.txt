@@ -1,0 +1,17 @@
+C:\Users\winnie\source\repos\GentilCareBack\GentilCareBack.Services\bin\Release\netcoreapp3.1\GentilCareBack.Services.deps.json
+C:\Users\winnie\source\repos\GentilCareBack\GentilCareBack.Services\bin\Release\netcoreapp3.1\GentilCareBack.Services.dll
+C:\Users\winnie\source\repos\GentilCareBack\GentilCareBack.Services\bin\Release\netcoreapp3.1\GentilCareBack.Services.pdb
+C:\Users\winnie\source\repos\GentilCareBack\GentilCareBack.Services\bin\Release\netcoreapp3.1\GentilCareBack.Data.dll
+C:\Users\winnie\source\repos\GentilCareBack\GentilCareBack.Services\bin\Release\netcoreapp3.1\GentilCareBack.Dto.dll
+C:\Users\winnie\source\repos\GentilCareBack\GentilCareBack.Services\bin\Release\netcoreapp3.1\GentilCareBack.Models.dll
+C:\Users\winnie\source\repos\GentilCareBack\GentilCareBack.Services\bin\Release\netcoreapp3.1\GentilCareBack.Data.pdb
+C:\Users\winnie\source\repos\GentilCareBack\GentilCareBack.Services\bin\Release\netcoreapp3.1\GentilCareBack.Dto.pdb
+C:\Users\winnie\source\repos\GentilCareBack\GentilCareBack.Services\bin\Release\netcoreapp3.1\GentilCareBack.Models.pdb
+C:\Users\winnie\source\repos\GentilCareBack\GentilCareBack.Services\obj\Release\netcoreapp3.1\GentilCareBack.Services.csproj.AssemblyReference.cache
+C:\Users\winnie\source\repos\GentilCareBack\GentilCareBack.Services\obj\Release\netcoreapp3.1\GentilCareBack.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\winnie\source\repos\GentilCareBack\GentilCareBack.Services\obj\Release\netcoreapp3.1\GentilCareBack.Services.AssemblyInfoInputs.cache
+C:\Users\winnie\source\repos\GentilCareBack\GentilCareBack.Services\obj\Release\netcoreapp3.1\GentilCareBack.Services.AssemblyInfo.cs
+C:\Users\winnie\source\repos\GentilCareBack\GentilCareBack.Services\obj\Release\netcoreapp3.1\GentilCareBack.Services.csproj.CoreCompileInputs.cache
+C:\Users\winnie\source\repos\GentilCareBack\GentilCareBack.Services\obj\Release\netcoreapp3.1\GentilCareBack.Services.csproj.CopyComplete
+C:\Users\winnie\source\repos\GentilCareBack\GentilCareBack.Services\obj\Release\netcoreapp3.1\GentilCareBack.Services.dll
+C:\Users\winnie\source\repos\GentilCareBack\GentilCareBack.Services\obj\Release\netcoreapp3.1\GentilCareBack.Services.pdb

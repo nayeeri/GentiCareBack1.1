@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\INTECH\\Documents\\GitHub\\Nayeeri%20-%20Gentilcare\\gentil-care-back\\GentilCareBack.Dto\\GentilCareBack.Dto.csproj",
+      "projectUniqueName": "C:\\Users\\INTECH\\Documents\\GitHub\\GentiCareBack1.1\\gentil-care-back\\GentilCareBack.Dto\\GentilCareBack.Dto.csproj",
       "projectName": "GentilCareBack.Dto",
-      "projectPath": "C:\\Users\\INTECH\\Documents\\GitHub\\Nayeeri%20-%20Gentilcare\\gentil-care-back\\GentilCareBack.Dto\\GentilCareBack.Dto.csproj",
+      "projectPath": "C:\\Users\\INTECH\\Documents\\GitHub\\GentiCareBack1.1\\gentil-care-back\\GentilCareBack.Dto\\GentilCareBack.Dto.csproj",
       "packagesPath": "C:\\Users\\INTECH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\INTECH\\Documents\\GitHub\\Nayeeri%20-%20Gentilcare\\gentil-care-back\\GentilCareBack.Dto\\obj\\",
+      "outputPath": "C:\\Users\\INTECH\\Documents\\GitHub\\GentiCareBack1.1\\gentil-care-back\\GentilCareBack.Dto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\INTECH\\AppData\\Roaming\\NuGet\\NuGet.Config",

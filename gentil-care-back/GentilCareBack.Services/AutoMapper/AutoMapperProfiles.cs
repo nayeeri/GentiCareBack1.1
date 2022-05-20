@@ -122,6 +122,8 @@ namespace GentilCareBack.Services.AutoMapper
                 .ForMember(dest => dest.lastname, opt => opt.MapFrom(src => src.A_M))
                 .ForMember(dest => dest.name, opt => opt.MapFrom(src => src.nombre))
                 .ForMember(dest => dest.Auths, opt => opt.MapFrom(src => src.auth))
+                .ForMember(dest => dest.pin, opt => opt.MapFrom(src => src.pin))
+                .ForMember(dest => dest.status, opt => opt.MapFrom(src => src.status))
                 .ForMember(dest => dest.birthday, opt => opt.MapFrom(src => src.fecha_nac));
 
 
@@ -136,6 +138,8 @@ namespace GentilCareBack.Services.AutoMapper
                 .ForMember(dest => dest.auth, opt => opt.MapFrom(src => src.Auths))
                 .ForMember(dest => dest.A_P, opt => opt.MapFrom(src => src.firsname))
                 .ForMember(dest => dest.A_M, opt => opt.MapFrom(src => src.lastname))
+                .ForMember(dest => dest.pin, opt => opt.MapFrom(src => src.pin))
+                .ForMember(dest => dest.status, opt => opt.MapFrom(src => src.status))
                 .ForMember(dest => dest.fecha_nac, opt => opt.MapFrom(src => src.birthday));
 
             CreateMap<PlanesDto, Planes>();
@@ -160,6 +164,12 @@ namespace GentilCareBack.Services.AutoMapper
                 .ForMember(dest => dest.estudio, opt => opt.MapFrom(src => src.estudio))
                 .ForMember(dest => dest.provedor, opt => opt.MapFrom(src => src.provedor))
                 .ForMember(dest => dest.ProveedorId, opt => opt.MapFrom(src => src.ProveedorId));
+
+            CreateMap<SemanaDto, Semana>();
+            CreateMap<Semana, SemanaDto>();
+
+            CreateMap<HorasDto, Horas>();
+            CreateMap<Horas, HorasDto>();
         }
     }
 }

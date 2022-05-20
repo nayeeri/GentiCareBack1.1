@@ -21,7 +21,7 @@ namespace GentilCareBack.Controllers
         private readonly ISemanaService _semanaService;
 
         private readonly IPreguntasService _preguntasService;
-        public UsersController(IUsersService usersService, IPreguntasService preguntasService, IRolesService rolesService, IAuthsService authsService)
+        public UsersController(IUsersService usersService, IPreguntasService preguntasService, IRolesService rolesService, IAuthsService authsService, IColaboradorsService colaboradorService, IHoraService horaService, ISemanaService semanaService ) 
         {
             this._usersService = usersService;
             this._preguntasService = preguntasService;

@@ -42,10 +42,18 @@ namespace GentilCareBack.Controllers
         }
 
         [HttpPut("verify")]
-        public async Task<ActionResult> verify(UsersDto usersDto)
+        public async Task<ActionResult> verify(requestUserVerify usersDto)
         {
-            //return Ok(await _usersService.GetByIdAsync(long.Parse("1")));
-            return Ok("");
+            var tem = await _usersService.GetByPinAndCorreoAsync(usersDto.pin, usersDto.email);
+            ResponseGeneralDto gen = new ResponseGeneralDto();
+            if (tem != null) {
+                Utils.SendMailUserAndPasswordGmail (tem.auth.username, tem.auth.password, usersDto.email);
+                gen.status = true;
+                gen.msg = "El PIN fue validado con exito";
+            }
+            
+            return Ok(gen);
+            //return Ok("");
         }
 
         

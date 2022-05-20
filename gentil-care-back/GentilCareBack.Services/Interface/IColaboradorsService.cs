@@ -13,5 +13,7 @@ namespace GentilCareBack.Services.Interface
         Task<bool> InsertAsync(ColaboradorsDto obj);
         Task<bool> UpdateAsync(ColaboradorsDto obj);
         Task<bool> DeleteAsync(object id);
+
+        Task<ColaboradorsDto> getUltimateRegister();
     }
 }

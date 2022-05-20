@@ -91,6 +91,8 @@ namespace GentilCareBack
             services.AddSingleton<IPlanesService, PlanesService>();
             services.AddSingleton<IMedicamentoService, MedicamentoService>();
             services.AddSingleton<IProveedorService, ProveedorService>();
+            services.AddSingleton<ISemanaService, SemanaService>();
+            services.AddSingleton<IHoraService, HoraService>();
             //            services.AddTransient<Addresses>();
         }
 

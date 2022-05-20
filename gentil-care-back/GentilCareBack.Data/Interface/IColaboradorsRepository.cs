@@ -12,5 +12,7 @@ namespace GentilCareBack.Data.Interface
         Task InsertAsync(T obj);
         Task UpdateAsync(T obj);
         Task DeleteAsync(object id);
+
+        Task<T> getUltimateRegister();
     }
 }

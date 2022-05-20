@@ -60,6 +60,17 @@ namespace GentilCareBack.Data.Implements
                 .Include(x => x.Auths.Roles)
                 .FirstOrDefaultAsync();
         }
+
+        public new async Task<Users> GetByPinAndCorreoAsync(string pin, string email)
+        {
+            //return await repository.GetByIdAsync(id);
+            return await _context.Users.Where(x => x.email.Equals(email) && x.pin.Equals(pin))
+                .Include(x => x.Auths)
+                .Include(x => x.Auths.Roles)
+                .FirstOrDefaultAsync();
+        }
+
+        
         public new async Task InsertAsync(Users obj)
         {
             await repository.InsertAsync(obj);

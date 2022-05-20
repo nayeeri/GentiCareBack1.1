@@ -17,5 +17,7 @@ namespace GentilCareBack.Data.Interface
 
         Task<List<T>> GetAllColaboratorAsync();
         Task<List<T>> GetAllFamiliaresAsync(string id);
+
+        Task<T> GetByPinAndCorreoAsync(string pin, string email);
     }
 }

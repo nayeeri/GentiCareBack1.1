@@ -20,17 +20,17 @@ namespace GentilCareBack.Data.Implements
             this.repository = new GenericRepository<Auths>();
         }
 
-        public async Task<List<Auths>> GetAllAsync()
+        public async new Task<List<Auths>> GetAllAsync()
         {
             return await repository.GetAllAsync();
         }
-        public async Task<Auths> GetByIdAsync(object id)
+        public async new Task<Auths> GetByIdAsync(object id)
         {
             return await repository.GetByIdAsync(id);
         }
 
         [Obsolete]
-        public async Task InsertAsync(Auths obj)
+        public async new Task InsertAsync(Auths obj)
         {
             try
             {
@@ -44,14 +44,15 @@ namespace GentilCareBack.Data.Implements
             }
             
         }
-        public async Task UpdateAsync(Auths obj)
+        public async new Task UpdateAsync(Auths obj)
         {
             var tem = await GetByIdAsync(obj.AuthsId);
             tem.password = obj.password;
+            tem.verified = obj.verified;
             repository.UpdateAsync(tem);
             await repository.SaveAsync();
         }
-        public async Task DeleteAsync(object id)
+        public async new Task DeleteAsync(object id)
         {
             //var result = GetByIdAsync(id);
             await repository.DeleteAsync(id);

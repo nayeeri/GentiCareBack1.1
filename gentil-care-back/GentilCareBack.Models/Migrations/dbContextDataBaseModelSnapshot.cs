@@ -309,6 +309,98 @@ namespace GentilCareBack.Models.Migrations
                     b.ToTable("Farmacos");
                 });
 
+            modelBuilder.Entity("GentilCareBack.Models.Entity.Horas", b =>
+                {
+                    b.Property<long>("HorasId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<long?>("SemanaId")
+                        .HasColumnType("bigint");
+
+                    b.Property<bool>("catorce")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("cero")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("cinco")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("cuatro")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("dia")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("diecinueve")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("dieciocho")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("dieciseis")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("diecisiete")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("diez")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("doce")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("dos")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("nueve")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("ocho")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("once")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("quince")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("seis")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("siete")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("trece")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("tres")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("una")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("veinte")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("veintidos")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("veintitres")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("veintiuno")
+                        .HasColumnType("bit");
+
+                    b.HasKey("HorasId");
+
+                    b.HasIndex("SemanaId");
+
+                    b.ToTable("Horas");
+                });
+
             modelBuilder.Entity("GentilCareBack.Models.Entity.Interrogatorios", b =>
                 {
                     b.Property<long>("InterrogatoriosId")
@@ -526,6 +618,23 @@ namespace GentilCareBack.Models.Migrations
                     b.HasKey("RolesId");
 
                     b.ToTable("Roles");
+                });
+
+            modelBuilder.Entity("GentilCareBack.Models.Entity.Semana", b =>
+                {
+                    b.Property<long>("SemanaId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<long?>("ColaboradorsId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("SemanaId");
+
+                    b.HasIndex("ColaboradorsId");
+
+                    b.ToTable("Semana");
                 });
 
             modelBuilder.Entity("GentilCareBack.Models.Entity.Sentidos", b =>
@@ -914,6 +1023,13 @@ namespace GentilCareBack.Models.Migrations
                     b.HasOne("GentilCareBack.Models.Entity.Addresses", "Addresses")
                         .WithMany()
                         .HasForeignKey("AddressesId");
+                });
+
+            modelBuilder.Entity("GentilCareBack.Models.Entity.Semana", b =>
+                {
+                    b.HasOne("GentilCareBack.Models.Entity.Colaboradors", "Colaboradors")
+                        .WithMany()
+                        .HasForeignKey("ColaboradorsId");
                 });
 
             modelBuilder.Entity("GentilCareBack.Models.Entity.Sentidos", b =>

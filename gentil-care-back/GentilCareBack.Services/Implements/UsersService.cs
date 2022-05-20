@@ -44,6 +44,20 @@ namespace GentilCareBack.Services.Implements
             return resp;
         }
 
+        public async Task<UsersDto> GetByPinAndCorreoAsync(string pin, string email) {
+            var tem = await repository.GetByPinAndCorreoAsync(pin, email);
+            if (tem != null) {
+                var temporal = await repositoryAuth.GetByIdAsync(tem.Auths.AuthsId);
+                temporal.verified = true;
+                await repositoryAuth.UpdateAsync(temporal);
+                var resp = _mapper.Map<UsersDto>(tem);
+                
+
+                return resp;
+            }
+            return null;
+        }
+
         public async Task<List<UsersDto>> GetAllColaboratorAsync() {
             var result = await repository.GetAllColaboratorAsync();
             var resp = _mapper.Map<List<UsersDto>>(result);

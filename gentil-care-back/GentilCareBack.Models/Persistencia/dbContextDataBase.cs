@@ -69,5 +69,9 @@ namespace GentilCareBack.Models.Persistencia
         public virtual DbSet<Medicamento> Medicamento { get; set; }
 
         public virtual DbSet<Proveedor> Proveedor { get; set; }
+
+        public virtual DbSet<Semana> Semana { get; set; }
+
+        public virtual DbSet<Horas> Horas { get; set; }
     }
 }
